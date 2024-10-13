@@ -2,19 +2,19 @@
 import Image from "next/image"
 import { useEffect } from "react";
 import { FAQs, products } from "../utils/data";
-import { PrimaryBtn, SecondaryBtn } from "../../components/btn";
-import TransactionCard from "../../components/transaction-card";
-import BadgeSection from "../../components/badge-section";
-import Percent from "../../components/percent";
-import FeatureCard from "../../components/feature-card";
-import QuestionCard from "../../components/question-card";
-import Testimonials from "../../components/testimonials";
-import ProductCard from "../../components/product-card";
+import { PrimaryBtn, SecondaryBtn } from "@/components/btn";
 import { HiCheckBadge, HiCurrencyDollar } from "react-icons/hi2";
 import { FaBitcoin, FaEthereum } from "react-icons/fa6";
 import { AiFillEuroCircle } from "react-icons/ai";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ProductCard from "@/components/product-card";
+import TransactionCard from "@/components/transaction-card";
+import BadgeSection from "@/components/badge-section";
+import Percent from "@/components/Percent";
+import FeatureCard from "@/components/feature-card";
+import QuestionCard from "@/components/question-card";
+import Testimonials from "@/components/testimonials";
 
 
 

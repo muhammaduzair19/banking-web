@@ -1,9 +1,9 @@
 'use client';
 import Image from "next/image"
 import { FAQs, security } from "../utils/data"
-import { SecondaryBtn } from "../../components/btn";
-import QuestionCard from "../../components/question-card";
-import SecurityCard from "../../components/security-card";
+import { SecondaryBtn } from "@/components/btn";
+import QuestionCard from "@/components/question-card";
+import SecurityCard from "@/components/security-card";
 
 
 const Security = () => {
@@ -17,7 +17,7 @@ const Security = () => {
                             <Image src={'/images/security.png'} width={600} height={400} alt='security' className='md:w-full md:self-end' />
                         </div>
                         <div className='w-full md:w-1/2 bg-grey-950 py-6 rounded-3xl px-4 md:rounded-none p-0 md:p-10 lg:p-14 md:mr-14 lg:-mr-24 z-20 -mt-20 flex justify-center md:justify-normal md:items-start items-center md:text-left md:h-fit text-center flex-col md:mt-0 md:rounded-br-3xl' >
-                            <h1 className='text-3xl md:text-4xl font-semibold'>Your Security is Our <span className='text-limegreen-950 '>Top Priority</span></h1>
+                            <h1 className='text-3xl md:text-4xl font-semibold'>Your Security is Our <span className='text-limegreen-950 '>Top Priorit   y</span></h1>
                             <p className='text-grey-200 text-sm mt-5'>
                                 At YourBank, we understand the importance of keeping your financial information secure. We employ robust security measures and advanced technologies to protect your personal and financial data. Rest assured that when you bank with us, your security is our utmost priority.
                             </p>

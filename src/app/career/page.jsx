@@ -1,11 +1,11 @@
 'use client';
 import Image from "next/image"
 import { benefits, FAQs, jobOpenings, values } from "../utils/data"
-import { PrimaryBtn, SecondaryBtn } from "../../components/btn";
-import ValueCard from "../../components/value-card";
-import SecurityCard from "../../components/security-card";
-import JobCard from "../../components/job-card";
-import QuestionCard from "../../components/question-card";
+import { PrimaryBtn, SecondaryBtn } from "@/components/btn";
+import ValueCard from "@/components/value-card";
+import SecurityCard from "@/components/security-card";
+import JobCard from "@/components/job-card";
+import QuestionCard from "@/components/question-card";
 
 
 const Career = () => {

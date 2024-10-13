@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image"
-import { pressRelease } from "../utils/data"
-import AboutCard from "../../components/about-card";
+import AboutCard from "@/components/about-card";
+import { pressRelease } from "../utils/data";
 
 const About = () => {
     return (
