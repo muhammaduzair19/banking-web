@@ -12,13 +12,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/icon.svg" sizes="any" />
       </head>
-      <body className={inter.className + ' bg-[#1e1e1e] py-10 px-6 md:px-20 xl:px-36'}>
-        <Navbar />
-        {children}
+      <body className={inter.className + ' bg-white-4 text-grey-950 dark:bg-grey-950 dark:text-white transition-colors duration-300 py-10 px-6 md:px-20 xl:px-36 min-h-screen flex flex-col justify-between'}>
+        <div>
+          <Navbar />
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
